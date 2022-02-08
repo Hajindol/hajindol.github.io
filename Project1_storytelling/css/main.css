@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+/*font-family: tuppence,serif;
+font-weight: 700;
+font-style: italic;*/
+	box-sizing: border-box;
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+}
+
+/*h1{ 
+	color: black;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+	text-align: center;
+
+}
+*/
+h1{ 
+	color: black;
+	margin: 50px 0px 50px;
+	font-size: 50px;
+	text-align: center;
+
+}
+.button-section{
+	width: 100%;
+	padding: 100px 0px;
+	top: 50px;
+}
+.insta{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.insta .button{
+
+ background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: .3s; 
+}
+
+.insta.button:hover{
+	background-color: transparent;
+	border: 2px solid white;
+	cursor: pointer;
+}
+/*home content*/
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:15%;
+	transform: translateY(-50%);
+}
+
+
