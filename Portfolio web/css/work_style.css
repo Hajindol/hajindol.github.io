@@ -1,0 +1,292 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+/*font-family: tuppence,serif;
+font-weight: 700;
+font-style: italic;*/
+	box-sizing: border-box;
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	/*background-image: url(../img/about_pic.jpg);*/
+	background-color: #191919;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+	position: relative;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #FA5BA2;
+	transition: .4s;
+}
+
+span{ 
+color: #FA5BA2; }
+
+/*song section srats here*/
+
+.lyrics{
+	width: 100%;
+	padding: 100px 0px;
+	top: 100px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.lyrics img{
+	width: 430px;
+	height: auto;
+
+}
+
+
+.loveless-text{
+	width: 550px;
+}
+
+.loveless-text h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 45px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.loveless-text p{
+	color: #a6a6a6;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.main .button{
+	background-color:#FA5BA2;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .3s; 
+}
+.main .button:hover{
+	background-color: transparent;
+	border: 2px solid #FA5BA2;
+	cursor: pointer;
+}
+
+/*second section starts here*/
+
+.secondwork{
+	width: 100%;
+	padding: 100px 0px;
+	top: 50px;
+	background-color: #191919;
+}
+
+.main2{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.secondwork img{
+	width: 430px;
+	height: auto;
+}
+
+
+.story-text{
+	width: 550px;
+
+}
+
+.story-text h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 45px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.story-text p{
+	color: #a6a6a6;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.main2 .button{
+	background-color:#FA5BA2;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .3s; 
+}
+.main2 .button:hover{
+	background-color: transparent;
+	border: 2px solid #FA5BA2;
+	cursor: pointer;
+}
+
+/*third section starts here*/
+
+.thirdwork{
+	width: 100%;
+	padding: 100px 0px;
+	top: 50px;
+	background-color: #191919;
+}
+
+.main3{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.thirdwork img{
+	width: 430px;
+	height: auto;
+}
+
+
+.type-text{
+	width: 550px;
+
+}
+
+.type-text h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 45px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.type-text p{
+	color: #a6a6a6;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.main3 .button{
+	background-color:#FA5BA2;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .3s; 
+}
+.main3 .button:hover{
+	background-color: transparent;
+	border: 2px solid #FA5BA2;
+	cursor: pointer;
+}
+
+/*fourth section starts here*/
+
+.fourthwork{
+	width: 100%;
+	padding: 100px 0px;
+	top: 50px;
+	background-color: #191919;
+}
+
+.main4{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.fourthwork img{
+	width: 430px;
+	height: auto;
+}
+
+
+.loop-text{
+	width: 550px;
+
+}
+
+.loop-text h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 45px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.loop-text p{
+	color: #a6a6a6;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.main4 .button{
+	background-color:#FA5BA2;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .3s; 
+}
+.main4 .button:hover{
+	background-color: transparent;
+	border: 2px solid #FA5BA2;
+	cursor: pointer;
+}
+

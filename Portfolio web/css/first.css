@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+
+#box1 {
+	position: relative;
+	text-align: center;
+	top: 0px;
+	padding: 50px;
+	z-index: 0;
+}
+
+#box2 {
+	position: absolute;
+	top: 115px;
+	left: 850px;
+	z-index: 1;
+}
+
+@font-face {
+	font-family: neuzeit;
+	src: url(../fonts/NeuzeitGroCon-Bla.ttf);
+}
+
+#neuzeit{
+	font-family: neuzeit;
+	font-size: 40px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #EFE34D;'
+	cursor: pointer;
+}
+a:visited {
+	text-decoration: none;
+	color: #EFE34D;
+}
+a:hover {
+	text-decoration: none; 
+	color: white;
+	text-shadow: 0px 0px 30px white;
+}

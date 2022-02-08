@@ -1,0 +1,33 @@
+/*Fifth CSS*/
+
+body{
+	background-color: black;
+}
+
+#box1 img{
+	position: fixed;
+	text-align: center;
+	top: -210px;	
+	width: 90%;
+	z-index: 0;
+
+}
+
+
+#spatula-img {
+    left: 600px;
+    position: absolute;
+    top: 25px;
+    width: 40%;
+
+}
+
+#spatula {
+	-webkit-animation: rotate 4s linear infinite;
+}
+
+ @-webkit-keyframes rotate {
+	from { 	-webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+	to   {  -webkit-transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+}
+	

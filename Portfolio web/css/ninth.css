@@ -1,0 +1,31 @@
+body{
+	background-color: #EFE34D;
+}
+
+#box1 {
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+}
+
+#box2 img{
+	position: fixed;
+	top: 200px;
+	left: 750px;
+	width: 5%;
+	height: auto;
+	z-index: 1;
+}
+
+#box2 {
+  -webkit-animation: blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {opacity: 1;}
+/*  49% {opacity: 1;}
+  50% {opacity: 0;}*/
+  100% {opacity: 0;}
+}

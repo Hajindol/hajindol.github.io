@@ -1,0 +1,111 @@
+
+@font-face {
+	font-family: NikolaiReg;
+	src: url(../fonts/NikolaiTrial-RegularWeb.woff);
+}
+
+
+@font-face {
+	font-family: NikolaiNarrow;
+	src: url(../fonts/NikolaiTrial-NarrowWeb.woff2);
+}
+
+
+@font-face {
+	font-family: NikolaiTrial-BoldWeb.woff2
+	src: url(../fonts/NikolaiTrial-NarrowWeb.woff2);
+}
+
+
+#narrow1 {
+	font-family: NikolaiNarrow;
+	font-size: 30px;
+	text-align: center;
+	padding: 50px;
+	color: White;
+}
+
+#regular1 {
+	font-family: NikolaiReg;
+	font-size: 90px;
+	text-align: center;
+	padding: 50px;
+	color: White;
+}
+
+#regular2 {
+	font-family: NikolaiReg;
+	font-size: 40px;
+	text-align: center;
+	padding: 50px;
+	color: White;
+}
+
+#regular3 {
+	font-family: NikolaiReg;
+	font-size: 75px;
+	text-align: justify;
+	top: 70px;
+	color: #996600;
+}
+
+#regular4 {
+	font-family: NikolaiReg;
+	font-size: 35px;
+	text-align: center;
+	padding: 50px;
+	color: #996600;
+}
+
+#foot {
+	position: relative;
+	top: 50px;
+	z-index: 0;
+}
+
+#regular5-1 {
+	font-family: NikolaiReg;
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+	color: black;
+}
+
+#regular5-2 {
+	font-family: NikolaiReg;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+
+#regular5 {
+	font-family: NikolaiReg;
+	font-size: 30px;
+	padding: 50px;
+	text-align: center;
+	color: white;
+	z-index: 1;
+}
+
+#regular6 {
+	font-family: NikolaiReg;
+	font-size: 38px;
+	text-align: center;
+	color: #008B8B;
+}
+
+#gradient{
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(92,92,92,1) 46%, rgba(255,255,255,1) 100%);
+}
+
+#lowergradient{
+	margin-top: -20px;
+	background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(92,92,92,1) 46%, rgba(255,255,255,1) 100%);
+}
+
+#circle-gradient{
+background: rgb(0,139,139);
+background: radial-gradient(circle, rgba(0,139,139,1) 0%, rgba(168,216,216,1) 69%, rgba(255,255,255,1) 100%);
+}

@@ -1,0 +1,25 @@
+/*Sixth CSS*/
+
+body{
+	background-color: #EFE34D;
+}
+
+#box1 img{
+	position: fixed;
+	text-align: center;
+	top: 30px;	
+	width: 93%;
+	left: 20px;
+	z-index: 0;
+
+}
+
+#box2 img {
+    left: 90px;
+    position: fixed;
+    top: 300px;
+    width: 50%;
+	z-index: 1;
+}
+
+

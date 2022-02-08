@@ -1,0 +1,56 @@
+body{
+	background-color: #EFE34D;
+}
+
+#box1 {
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	z-index: 0;
+}
+
+#blinking-img {
+	position: relative;
+	top: 190px;
+	left: 930px;
+	width: 25%;
+	height: auto;
+	z-index: 1;
+}
+
+#box2 {
+  -webkit-animation: blink 1s infinite;
+/*  -webkit-animation-iteration-count: infinite;*/
+/*  -moz-animation: blink 1s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: blink 1s;
+  -o-animation-iteration-count: infinite;*/
+}
+
+@-webkit-keyframes blink {
+  0% {opacity: 1;}
+  49% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+/*@-moz-keyframes blink {
+  0% {opacity: 1;}
+
+  49% {opacity: 1;}
+
+  50% {opacity: 0;}
+
+  100% {opacity: 0;}
+}
+
+@-o-keyframes blink {
+  0% {opacity: 1;}
+
+  49% {opacity: 1;}
+
+  50% {opacity: 0;}
+
+  100% {opacity: 0;}
+}
+*/
